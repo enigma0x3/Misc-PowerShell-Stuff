@@ -14,6 +14,9 @@ function Get-Mattifestations {
 
     .EXAMPLE
     Get-Mattifestations -Handle enigma0x3
+    
+    .EXAMPLE
+    "enigma0x3","harmj0y","sixdub" | Get-Mattifestations
 
     .LINK
     https://twitter.com/lee_holmes/status/289810790821789696
