@@ -8,7 +8,7 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("cttunesvr.CtTuner");	
+			var r = new ActiveXObject("Shell.Application").ShellExecute("C:\Windows\System32\calc.exe");	
 	
 		]]>
 </script>
