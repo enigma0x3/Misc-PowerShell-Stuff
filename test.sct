@@ -8,7 +8,7 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("VBScript.RegExp");	
+			var r = new ActiveXObject("cttunesvr.CtTuner");	
 	
 		]]>
 </script>
