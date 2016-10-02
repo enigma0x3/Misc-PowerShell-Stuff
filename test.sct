@@ -8,7 +8,7 @@
 	<script language="JScript">
 		<![CDATA[
 	
-			var r = new ActiveXObject("Scripting.FileSystemObject");	
+			var r = new ActiveXObject("VBScript.RegExp");	
 	
 		]]>
 </script>
