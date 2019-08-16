@@ -32,7 +32,7 @@ function Get-Mattifestation {
         try {
             [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
             $WC = New-Object Net.WebClient
-            if(($WC.DownloadString("http://twitter.com/mattifestation") -match '([,\d]+).*Followers')) {
+            if(($WC.DownloadString("https://twitter.com/mattifestation") -match '([,\d]+).*Followers')) {
                 [int]$Mattifestation = $Matches[1]
             }
         }
@@ -42,7 +42,7 @@ function Get-Mattifestation {
     }
     process {
         
-        if(($WC.DownloadString("http://twitter.com/$Handle") -match '([,\d]+).*Followers')) {
+        if(($WC.DownloadString("https://twitter.com/$Handle") -match '([,\d]+).*Followers')) {
             [int]$User = $Matches[1] 
         }
      
